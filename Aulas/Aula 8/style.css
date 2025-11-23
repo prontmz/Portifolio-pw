@@ -1,0 +1,15 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #9d9292;
+}
+.titulo{
+    text-align: center;
+    border: #9d9292;
+    color: rgb(180, 148, 53);
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}

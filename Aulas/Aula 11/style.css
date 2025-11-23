@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    justify-content: flex-end;
+    background-color: lightgray;
+
+}
+#Destaques{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightsalmon;
+    gap: 20px;
+    padding: 20px;
+}
+#card{
+    background-color: rgb(16, 178, 178);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}

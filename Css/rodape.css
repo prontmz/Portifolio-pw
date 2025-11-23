@@ -1,0 +1,27 @@
+.rodape {
+  background: linear-gradient(135deg, #004aad, #0078ff);
+  color: #fff;
+  text-align: center;
+  padding: 25px 10px;
+  margin-top: 40px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  box-shadow: 0 -3px 8px rgba(0, 0, 0, 0.2);
+  font-family: 'Poppins', sans-serif;
+}
+.rodape p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.rodape strong {
+  color: #ffe600;
+}
+
+.rodape .redes a {
+  margin: 0 8px;
+  font-size: 20px;
+  text-decoration: none;
+  transition: transform 0.3s, color 0.3s;
+}
+

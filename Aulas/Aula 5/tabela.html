@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+  <caption>Tabela de Produtos</caption>
+  <thead>
+    <tr>
+      <th>Produto</th>
+      <th>Preço (MZN)</th>
+      <th>Validade</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Arroz</td>
+      <td>350</td>
+      <td>3 de maio</td>
+    </tr>
+    <tr>
+      <td>Açúcar</td>
+      <td>200</td>
+      <td>11 de abril</td>
+    </tr>
+    <tr>
+        <td>Pao</td>
+        <td>150
+        </td>
+        <td>Amanha</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Total</td>
+      <td>550</td>
+    </tr>
+  </tfoot>
+</table>
+<form action="/cadastrar" method="post">
+  <label for="nome">Nome:</label><br>
+  <input type="text" id="nome" name="nome" required><br><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="senha">Senha:</label><br>
+  <input type="password" id="senha" name="senha" required><br><br>
+
+  <label for="genero">Género:</label><br>
+  <select id="genero" name="genero">
+    <option value="masculino">Masculino</option>
+    <option value="feminino">Feminino</option>
+    <option value="outro">Outro</option>
+  </select><br><br>
+
+  <label for="msg">Mensagem:</label><br>
+  <textarea id="msg" name="mensagem"></textarea><br><br>
+
+  <button type="submit">Cadastrar</button>
+</form>
+
+
+    
+</body>
+</html>

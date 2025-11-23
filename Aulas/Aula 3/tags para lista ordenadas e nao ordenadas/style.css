@@ -1,0 +1,24 @@
+body{
+     background-color: #c4a684;
+}
+h1, h2 {
+    color: #D2691E;
+}
+
+.img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #000;
+    position: fixed;
+    top: 50px;
+    left: 700px;
+}
+
+
+
+.instrucoes{
+    color: #5B4636;
+}
+.img:hover{
+    transform: scale(1.05);
+    
+}

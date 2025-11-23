@@ -1,0 +1,46 @@
+ 
+/* Texto de fundo nos cards */
+.card::before {
+    content: "USTM"; /* aqui colocas o que quiseres escrever */
+    position: absolute;
+    font-size: 5rem;
+    color: rgba(230, 160, 80, 0.1); /* cor suave e transparente */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-20deg);
+    z-index: 0; /* fica atrás do conteúdo */
+    pointer-events: none; /* não atrapalha cliques */
+}
+
+/* Ajuste para que o card permita o texto atrás */
+.card {
+    position: relative; /* importante para o ::before funcionar dentro */
+    background-color: #fff3e6;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    padding: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    z-index: 1; /* conteúdo do card fica acima do texto de fundo */
+}
+/* Container precisa de position relative para os textos de fundo */
+.conteiner {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+/* Textos de fundo */
+.bg-texto {
+    position: absolute;
+    color: rgba(230, 160, 80, 0.15); /* cor suave */
+    font-weight: bold;
+    pointer-events: none; /* não atrapalha cliques */
+    z-index: 0; /* atrás do conteúdo */
+    white-space: nowrap;
+    user-select: none;
+}
+
+/* Ajuste para o card conteúdo ficar acima do texto */
+.card {
+    position: relative;
+    z-index: 1;
+}

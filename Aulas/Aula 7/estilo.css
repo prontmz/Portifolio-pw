@@ -1,0 +1,15 @@
+body{
+  background-image: url("boliviainteligente-lfdfHvtZLoY-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.title{
+    font-size: 20pt;
+     text-align: center;
+
+}
+.tab{
+    margin: 0 auto;
+    width: 400px;
+}
